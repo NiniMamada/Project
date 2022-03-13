@@ -76,22 +76,24 @@ main .artwork div {
   height: 100%;
   background-repeat: no-repeat;
   position: relative;
-  background-position: center;
 }
 main .artwork .art1 {
   background-image: url("https://uploads0.wikiart.org/images/vincent-van-gogh/portrait-of-doctor-gachet-1890.jpg!Large.jpg");
+  background-position: right;
 }
 main .artwork .art2 {
   background-image: url("https://uploads7.wikiart.org/images/vincent-van-gogh/paul-gauguin-s-armchair-1888.jpg!Large.jpg");
 }
 main .artwork .art3 {
   background-image: url("https://uploads6.wikiart.org/images/vincent-van-gogh/red-vineyards-at-arles-1888.jpg!Large.jpg");
+  background-position: right;
 }
 main .artwork .art4 {
   background-image: url("https://uploads8.wikiart.org/images/vincent-van-gogh/sower-with-setting-sun-1888-3.jpg!Large.jpg");
 }
 main .artwork .art5 {
   background-image: url("https://uploads2.wikiart.org/images/vincent-van-gogh/prisoners-exercising-prisoners-round-1890.jpg!Large.jpg");
+  background-position: right;
 }
 main .artwork .art6 {
   background-image: url("https://uploads7.wikiart.org/images/vincent-van-gogh/still-life-vase-with-fifteen-sunflowers-1888-1.jpg!Large.jpg");
@@ -107,6 +109,11 @@ main .artwork .overlay {
   align-items: center;
   opacity: 0;
   font-size: 30px;
+  transition: 1s;
+}
+main .artwork div:hover {
+  background-position: center;
+  transition: 1s;
 }
 main .artwork .overlay:hover {
   opacity: 1;
@@ -125,25 +132,23 @@ main .about .right h1 {
 }
 main .about .left {
   background-image: url("https://vistapointe.net/images/vincent-van-gogh-10.jpg");
-  width: 100%;
+  width: 50%;
   height: 100%;
   background-position: cover;
   background-repeat: no-repeat;
-}
-main .about .left img {
   width: 100%;
   height: 100%;
 }
+
 main .about {
   width: 100%;
-  height: 1000px;
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   background-color: rgb(100, 100, 100);
   margin-top: 70px;
 }
-
 footer {
   height: 70px;
   width: 100%;

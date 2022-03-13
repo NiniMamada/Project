@@ -1,0 +1,6 @@
+@media screen and (max-width: 769px) {
+  main .photo .wrap div p,
+  main .photo .wrap div h1 {
+    font-size: 50px;
+  }
+}
