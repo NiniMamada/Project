@@ -4,3 +4,23 @@
     font-size: 50px;
   }
 }
+@media screen and (max-width: 450px) {
+  footer .footer p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  main .artowrk {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  main .about .left {
+    width: 50%;
+    height: 50%;
+  }
+}
